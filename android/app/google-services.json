@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "590033576727",
+    "project_id": "jeletest-632fe",
+    "storage_bucket": "jeletest-632fe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590033576727:android:d62f3e59844285ae924d52",
+        "android_client_info": {
+          "package_name": "com.example.jele_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6sCFhBSwXOxc4AFW7I1mQfd3lkaafNHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
