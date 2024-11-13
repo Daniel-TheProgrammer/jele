@@ -1,16 +1,16 @@
 # jele_test
 
-A new Flutter project.
+An Application to send notifications
 
-## Getting Started
+Libraries
 
-This project is a starting point for a Flutter application.
+- flutter_local_notifications: This is used to display notifications
+- firebase_core: This is the firebase core package. We use firebase to send
+  notifications so we need the core package
+- firebase_messaging: This is used to receive the notifications
+- permission_handler: This is used to manage permissions to allow or deny
+  notifications
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app has one screen; When opened the app fetches the device token [Device
+token is used for sending notifications to a specific device] and displays it on
+the homescreen
